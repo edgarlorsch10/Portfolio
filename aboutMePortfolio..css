@@ -1,0 +1,35 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+
+main{
+  display:grid;
+  background-color:#000;
+  padding:12px;
+}
+main h1{
+  color:rgb(255,255,255);
+  font-size:30px;
+}
+main p{
+  color:yellow;
+  font-size:18px;
+}
+button{
+  padding:12px;
+  font-size:14px;
+  border-radius:25px;
+  background-color:rgb(3,4,251);
+  width:60%;
+}
+a{
+  text-decoration:none;
+  color:rgb(255,255,255);
+}
+a:hover{
+  color:yellow;
+}

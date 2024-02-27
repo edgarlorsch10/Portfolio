@@ -1,0 +1,79 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+main{
+  display:grid;
+  padding:20px;
+  grid-template-areas:'heading' 'carSite' 'restaurantSite' 'exit';
+  row-gap:12px;
+  background-color:#000;
+  
+}
+main p{
+  color:yellow;
+  font-size:16px;
+}
+ul{
+  list-style-type:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:5px;
+}
+
+li{
+  color:rgb(210,12,12);
+  padding:6px;
+  font-size:15px;
+}
+#myHeading{
+  grid-area:heading;
+}
+#myHeading h1{
+  color:rgb(255,255,255);
+  font-size:22px;
+}
+#carSite{
+  grid-area:carSite;
+}
+#restaurantSite{
+  grid-area:restaurantSite;
+}
+#carSite,#restaurantSite{
+  background-color:#222;
+  padding:15px;
+}
+#carSite h1,#restaurantSite h1{
+  color:rgb(255,255,255);
+  font-size:20px;
+}
+#exit{
+  grid-area:exit;
+}
+#exit button{
+  padding:16px;
+  font-size:14px;
+  border-radius:25px;
+  background-color:rgb(3,4,251);
+}
+a{
+  text-decoration:none;
+  color:rgb(255,255,255);
+}
+a:hover{
+  color:yellow;
+}
+video{
+  max-width:100%;
+  height:auto;
+  background-image:url(
+}

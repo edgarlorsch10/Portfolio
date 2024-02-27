@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+			<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+			<link rel="stylesheet" href="projects.css"/>
+			<title>Edgar Lorsch Portfolio Site</title>
+</head>
+<body>
+			<main>
+						<section id="myHeading">
+									<h1>Projects I Am Most Proud Of:</h1>
+						</section>
+						<section id="carSite">
+									<div id='carImage'>
+												<img src="../carSite/audi2.jpg"/>
+									</div>
+									<!--	<video source src="../carsVid.mp4" type="mp4"></video>-->
+									<div id="carSiteDescription">
+												<p>Other than coding,I'm quite passionate about cars,especially Audi cars.</p>
+															<p>This passion drove me into building a simple car website which I worked on for a duration of four weeks, that is from 18th of November 2023 to 23rd of December 2023.</p>
+															<p>Basically, the project required me to showcase the different vehicle brands a company had,and users were to select between new and used cars, cars of certain colors and a variety of prices.</p>
+															<p>Once users were satisfied with a particular brand, they would then fill out a form with all necessary details of their contact information,a form wouldn't be submitted if the details that were required for a dealership were unavailable.</p>
+												<p>To accomplish this task, I largely relied on my object oriented based programming knowledge, mainly uses of objects to store properties of a certain car brand together. I also used array methods such as .map() and .reduce() to implement certain functionalities of certain criteria had been selected.</p>
+												<p>The challenges I faced in this project include:</p>
+												<ul>
+															<li>Making my select element work as needed,it was no easy task filtering the car photos according to the correct criteria.</li>
+															<li>I also had to figure out how to make my reset button function as needed,it was a bit frustrating at first, but I eventually figured it out.</li>
+															<li>Making the images display correctly as images rather than the error I kept getting, a string value representing an image object element of the HTML DOM.</li>
+												</ul>
+									</div>
+									<div id="carSolutions">
+												<h1>How I solved each issue:</h1>
+												<p>For the first issue concerning filtering the images according to the correct criteria, I had to ensure that I set the proper conditions for my select element. For instance, if I specifically wanted a black Audi, I had to ensure that the specific index of the Audi was correct and the color was also correct. All other indices were set to zero for the function to work as expected.</p>
+												<p>In order to make my reset button function as I expected, I had to loop over all images that were in the webpage, create an array for this category of images that had not undergone any search filtration, and eventually store them in this particular array.</p>
+												<p>For the last challenge described above, I had to research suitable methods for correct image display. During my extensive search, I discovered a method called outerHTML,which is a DOM property of image objects,that helps show the actual image content.</p>
+									</div>
+									<div id="carConclusion">
+												<p>All in all, I was really proud of myself for taking on this project, it was quite an enjoyable one with so much to learn.</p>
+									</div>
+						</section>
+						<section id="restaurantSite">
+									<div id='restaurantImage'>
+												<img src='../Restaurant/EduChris Cover.jpg'/>
+									</div>
+									<div id='restaurantDescription'>
+												<p>This was the first time I ever built a full front end site with all the little knowledge I had on coding.</p>
+												<p>It was a family owned resturant where all kinds of food and drinks were advertised.</p>
+												<p>I also included details concerning opening hours, online food delivery and all kinds of details.</p>
+									</div>
+									<div id="restaurantChallenges">
+												<p>Major challenges I faced on this project were:</p>
+												<ul>
+															<li>How to validate form data, ensuring that form fields were correctly filled before sending to the server.</li>
+							
+															<li>How to make my site responsive on different kinds of devices.</li>
+												</ul>
+									</div>
+									<div id='restaurantSolutions'>
+												<h1>How I solved each issue:</h1>
+												<p>I was able to solve the issue concerning form validation by extensively going through several examples of how to prevent forms from being sent with blank details. I attribute this knowledge to online resources such as google documentation, and articles from Freecode camp.</p>
+												<p>I was able to solve the last problem by implementing CSS fundamentals such as grid and flexbox, which helped me dictate the look of my site on various screens.</p>
+									</div>
+						</section>
+						<section id="exit">
+									<button><a href="index.html">Take Me To Home Page</a></a></button>
+						</section>
+			</main>
+</body>
+</html>
