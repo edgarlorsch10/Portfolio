@@ -14,6 +14,8 @@ main{
 main h1{
   color:rgb(255,255,255);
   font-size:30px;
+  text-align:center;
+  text-transform:uppercase;
 }
 main p{
   color:yellow;
@@ -33,3 +35,25 @@ a{
 a:hover{
   color:yellow;
 }
+
+@media screen, (min-width:350px) and (max-width:650px){
+ main{
+    padding:35px;
+  }
+  main h1{
+    font-size:45px;
+    font-weight: bold;
+     }
+  main p{
+    font-size:55px;
+    margin:25px;
+  }
+  button{
+    font-size:35px;
+  }
+}
+/*@media screen and (min-width:600px){
+  main p{
+    font-size:35px;
+  }
+}*/
