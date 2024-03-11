@@ -12,6 +12,9 @@ This project was created by Edgar Lorsch. Special thanks to the open-source comm
 Feedback and Support:
 If you have any questions, feedback, or need support with this project, please don't hesitate to contact https://github.com/edgarlorsch10 or edgarlorsch00@gmail.com.
 
+To view the site head to:
+https://edgarlorsch10.github.io/Portfolio/
+
 Thank you for viewing my portfolio under my Github page! I hope it helps you determine whether im ready for the task as a web developer. Happy coding!
 
 
